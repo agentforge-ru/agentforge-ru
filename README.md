@@ -35,6 +35,8 @@
 
 - **[mcp-sqlite-server](https://github.com/agentforge-ru/mcp-sqlite-server)** — MCP-сервер для SQLite с safety guards. Read/write tools, защита от DROP/TRUNCATE. *Подойдёт если нужна локальная БД доступная Claude.*
 
+- **[mcp-postgres-server](https://github.com/agentforge-ru/mcp-postgres-server)** — MCP-сервер для PostgreSQL через psycopg 3. Three-layer safety: read-only роль БД + блок destructive операций + audit log. *Production-ready подход к Claude+Postgres.*
+
 - **[mcp-google-sheets](https://github.com/agentforge-ru/mcp-google-sheets)** — MCP-сервер для Google Sheets через service account. *Подойдёт если хочешь чтобы Claude читал/писал твои таблицы.*
 
 ### Для Telegram-автоматизации
