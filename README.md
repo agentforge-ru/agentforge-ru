@@ -51,6 +51,8 @@
 
 - **[claude-readme-generator](https://github.com/agentforge-ru/claude-readme-generator)** — Субагент для генерации README с обязательной honesty-секцией Limitations.
 
+- **[git-commit-curator](https://github.com/agentforge-ru/git-commit-curator)** — Субагент который читает `git diff --cached` и пишет осмысленный Conventional Commit. Без "WIP" и "various changes".
+
 ---
 
 ## 🛠 Стек
