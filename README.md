@@ -43,6 +43,8 @@
 
 - **[tg-news-digest-bot](https://github.com/agentforge-ru/tg-news-digest-bot)** — RSS-фиды → Claude ранжирует и саммаризует → утренний дайджест в Telegram. *Reference implementation для любого "контент-агрегатора с AI".*
 
+- **[tg-vacancy-filter-bot](https://github.com/agentforge-ru/tg-vacancy-filter-bot)** — Мониторинг вакансий с AI-фильтром по личным критериям. HH.ru + Habr Career + кастомные источники → Claude отбирает по стеку/грейду/формату → форвард в Telegram. *Reference implementation для любого "AI-фильтра входящего потока".*
+
 ### Для Claude Code
 
 - **[opportunity-scout](https://github.com/agentforge-ru/opportunity-scout)** — Claude Code субагент для контрарианского market research через 6 методологий (Inversion, Pre-mortem, JTBD, Blue Ocean и др.)
@@ -52,6 +54,8 @@
 - **[claude-readme-generator](https://github.com/agentforge-ru/claude-readme-generator)** — Субагент для генерации README с обязательной honesty-секцией Limitations.
 
 - **[git-commit-curator](https://github.com/agentforge-ru/git-commit-curator)** — Субагент который читает `git diff --cached` и пишет осмысленный Conventional Commit. Без "WIP" и "various changes".
+
+- **[claude-test-generator](https://github.com/agentforge-ru/claude-test-generator)** — Субагент для генерации pytest тестов из source-файла: happy path + edge cases + error paths. Без `assert True` и over-mocking.
 
 ---
 
